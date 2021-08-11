@@ -1,0 +1,13 @@
+Description: setupapi log
+Author: chan il park
+Version: 1.0
+Id: 07f57a75-f9d9-42f3-842c-bd7e5abbb800
+RecreateDirectories: true
+Targets:
+    -
+        Name: setupapi log
+        Category: FileSystem
+        Path: C:\Windows\INF
+        FileMask: '*.log'
+        Recursive: true
+
