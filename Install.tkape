@@ -1,0 +1,13 @@
+Description: install log
+Author: chan il park
+Version: 1.0
+Id: 07f57a75-f9d9-42f3-842c-bd7e5abbb801
+RecreateDirectories: true
+Targets:
+    -
+        Name: install log
+        Category: FileSystem
+        Path: C:\Windows\appcompat\Programs\Install
+        FileMask: '*.txt'
+        Recursive: true
+
