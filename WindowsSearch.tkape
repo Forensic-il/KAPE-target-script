@@ -1,0 +1,13 @@
+Description: windows search log
+Author: chan il park
+Version: 1.0
+Id: 07f57a75-f9d9-42f3-842c-bd7e5abbb807
+RecreateDirectories: true
+Targets:
+    -
+        Name: windows search log
+        Category: FileSystem
+        Path: C:\Users\pchi0\AppData\Local\Packages\Microsoft.Windows.Search_cw5n1h2txyewy\LocalState\DeviceSearchCache
+        FileMask: 'AppCache*.txt'
+        Recursive: true
+
